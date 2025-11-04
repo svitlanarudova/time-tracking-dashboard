@@ -175,6 +175,7 @@ MAIN
 }
 .user-dashboard__list li {
   color: var(--color-purple500);
+  transition: color var(--transition);
 }
 .user-dashboard__list li.--active {
   color: var(--color-white);
@@ -300,13 +301,16 @@ MAIN
   }
 }
 @media (any-hover: hover), (pointer: fine){
+  .user-dashboard__list li:hover{
+    cursor: pointer;
+    color: var(--color-white);
+  }
   .ellipsis:hover {
     cursor: pointer;
   }
   .ellipsis:hover span {
     background-color: var(--color-white);
   }
-
   .item-dashboard__content:hover{
     background-color: var(--color-navy800);
   }
