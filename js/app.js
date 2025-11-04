@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Load JSON data
-  fetch("../files/data.json").then((response) => {
+  fetch("files/data.json").then((response) => {
     if (!response.ok) {
       throw new Error("ERROR! JSON data not loaded.");
     }
