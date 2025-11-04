@@ -1,6 +1,6 @@
 ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Challenge-4BC0F0?logo=frontendmentor&logoColor=white) ![#11](https://img.shields.io/badge/%2311-red) [![Live Preview](https://img.shields.io/badge/Live-Preview-green)](https://svitlanarudova.github.io/time-tracking-dashboard/)
 
-# Frontend Mentor - Article preview component
+# Frontend Mentor - Time tracking dashboard
 ![Design preview for the Meet landing page](./preview.jpg)
 
 ## Project Overview 📋 
