@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<meta name="description" content="Time tracking dashboard">
+		<title>Time tracking dashboard</title>
+		<script type="module" src="./js/app.js"></script>
+		<link rel="stylesheet" href="./css/app.css">
+	</head>
+	<body>
+		<main class="main">
+			<div class="dashboard">
+				<article class="dashboard__user user-dashboard">
+					<div class="user-dashboard__top-area">
+						<div class="user-dashboard__avatar">
+							<picture>
+								<img alt="Jeremy Robson" src="./assets/img/image-jeremy.webp" srcset="./assets/img/image-jeremy.webp 1x,./assets/img/image-jeremy-2x.webp 2x,./assets/img/image-jeremy-3x.webp 3x">
+							</picture>
+						</div>
+						<div class="user-dashboard__info">
+							<span>Report for</span>
+							<h1 class="title">Jeremy Robson</h1>
+						</div>
+					</div>
+					<div class="user-dashboard__bottom-area">
+						<ul class="user-dashboard__list">
+							<li>
+								<button id="daily" type="button">Daily</button>
+							</li>
+							<li class="--active">
+								<button id="weekly" type="button">Weekly</button>
+							</li>
+							<li>
+								<button id="monthly" type="button">Monthly</button>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="dashboard__item item-dashboard">
+					<div class="item-dashboard__decor item-dashboard__decor--work"></div>
+					<div class="item-dashboard__content">
+						<h2 class="item-dashboard__title">
+							Work
+							<div class="ellipsis">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</h2>
+						<div class="item-dashboard__info">
+							<div class="item-dashboard__value">0hrs</div>
+							<span class="item-dashboard__last">Last Week - 0hrs</span>
+						</div>
+					</div>
+				</article>
+				<article class="dashboard__item item-dashboard">
+					<div class="item-dashboard__decor item-dashboard__decor--play"></div>
+					<div class="item-dashboard__content">
+						<h2 class="item-dashboard__title">
+							Play
+							<div class="ellipsis">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</h2>
+						<div class="item-dashboard__info">
+							<div class="item-dashboard__value">0hrs</div>
+							<span class="item-dashboard__last">Last Week - 0hrs</span>
+						</div>
+					</div>
+				</article>
+				<article class="dashboard__item item-dashboard">
+					<div class="item-dashboard__decor item-dashboard__decor--study"></div>
+					<div class="item-dashboard__content">
+						<h2 class="item-dashboard__title">
+							Study
+							<div class="ellipsis">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</h2>
+						<div class="item-dashboard__info">
+							<div class="item-dashboard__value">0hrs</div>
+							<span class="item-dashboard__last">Last Week - 0hrs</span>
+						</div>
+					</div>
+				</article>
+				<article class="dashboard__item item-dashboard">
+					<div class="item-dashboard__decor item-dashboard__decor--exercise"></div>
+					<div class="item-dashboard__content">
+						<h2 class="item-dashboard__title">
+							Exercise
+							<div class="ellipsis">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</h2>
+						<div class="item-dashboard__info">
+							<div class="item-dashboard__value">0hrs</div>
+							<span class="item-dashboard__last">Last Week - 0hrs</span>
+						</div>
+					</div>
+				</article>
+				<article class="dashboard__item item-dashboard">
+					<div class="item-dashboard__decor item-dashboard__decor--social"></div>
+					<div class="item-dashboard__content">
+						<h2 class="item-dashboard__title">
+							Social
+							<div class="ellipsis">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</h2>
+						<div class="item-dashboard__info">
+							<div class="item-dashboard__value">0hrs</div>
+							<span class="item-dashboard__last">Last Week - 0hrs</span>
+						</div>
+					</div>
+				</article>
+				<article class="dashboard__item item-dashboard">
+					<div class="item-dashboard__decor item-dashboard__decor--self-care"></div>
+					<div class="item-dashboard__content">
+						<h2 class="item-dashboard__title">
+							Self Care
+							<div class="ellipsis">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</h2>
+						<div class="item-dashboard__info">
+							<div class="item-dashboard__value">0hrs</div>
+							<span class="item-dashboard__last">Last Week - 0hrs</span>
+						</div>
+					</div>
+				</article>
+			</div>
+		</main>
+	</body>
+</html>
